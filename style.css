@@ -1,0 +1,169 @@
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 5px solid #69a3e4;
+}
+
+.logo {
+    height: 35px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #0077b5;
+    margin: 0 5px;
+    font-size: 14px;
+}
+
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+
+.left {
+    width: 55%;
+}
+
+.left h2 {
+    color: #0077b5;
+    font-size: 18px;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.features li {
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+    font-size: 14px;
+}
+
+.features img {
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+}
+
+
+.right {
+    width: 35%;
+}
+
+.form-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 0;
+}
+
+.form-header {
+    background: linear-gradient(to right, #1da1f2, #0077b5);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+label {
+    margin: 8px 0 3px;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 8px;
+    background-color: #6ab344;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #5aa036;
+}
+
+.signin {
+    text-align: center;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.signin a {
+    color: #0077b5;
+    text-decoration: none;
+}
+
+
+.search {
+    border-top: 1px solid #ccc;
+    padding: 20px 30px;
+    font-size: 14px;
+    
+}
+
+.search input {
+    padding: 4px;
+    margin: 0 3px;
+}
+
+.search button {
+    padding: 5px 10px;
+}
+
+.directory {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+
+.footer {
+    border-top: 1px solid #ccc;
+    padding: 20px 30px;
+    font-size: 13px;
+    background: #f9f9f9;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #0077b5;
+}
+
+.legal {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #666;
+}
